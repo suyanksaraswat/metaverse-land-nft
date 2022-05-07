@@ -1,16 +1,13 @@
-import logo from '../assets/logo.png'
-
 const Navbar = ({ web3Handler, account }) => {
     return (
         <nav className="flex-between">
             <a
                 className='flex'
-                href="http://www.dappuniversity.com/bootcamp"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src={logo} className="App-logo" alt="logo" />
-                Dapp University
+                Suyank Lands
             </a>
 
             {account ? (
